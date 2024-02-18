@@ -57,7 +57,6 @@ body{
 .project{
     width:550px;
     height: 368px;
-    background-color: white;
     display: inline-block;
     margin-inline:10px;
     margin-top: 10px;
@@ -67,27 +66,8 @@ body{
 }
 .project-overlay{
     width: 550px;
-    height: 368px;;
-    background-color: #06080ed2;
     position: absolute;
     display: none;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-}
-.project-overlay h1{
-    line-height: 368px;
-    font-size: 25px;
-    color: white;
-}
-.project-overlay p{
-    width: 100%;
-    text-align: center;
-    font-size: 25px;
-    color: #e79c10;
-    position: absolute;
-    top: 200px;
-    font-size: 16px;
 }
 .project:hover .project-overlay{
     display: block;
@@ -222,20 +202,24 @@ a{
 
     .nav-item{
         margin: 16px 0;
+    }
 
-    }
     .nav-menu.active{
-            left: 0;
+        left: 0;
     }
-    .project, .project-overlay, .project img{
-        width: 350px;
-        height: 218px;
+
+    .project{
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 20px;
+        height: auto;
     }
-    .project-overlay h1{
-        font-size: 20px;
-        line-height: 218px;
+    .project img{
+        width: 100%;
+        height: auto;
     }
-    .project-overlay p{
-        top: 120px;
+    .project-overlay{
+        width: 70% !important;
+        height: auto;
     }
 }
