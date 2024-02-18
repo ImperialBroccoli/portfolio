@@ -153,11 +153,13 @@ a{
     background-color: white;
 }
 .navbar-title{
+    width:100%;
     position: fixed;
     top:20px;
     text-align: center;
     font-size: 30px;
     z-index:1;
+    pointer-events: none;
 }
 
 /*
