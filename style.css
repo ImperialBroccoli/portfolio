@@ -112,6 +112,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
+    background-color:#06080e;
 }
 .nav-menu{
     display: flex;
@@ -156,6 +157,7 @@ a{
     top:20px;
     text-align: center;
     font-size: 30px;
+    z-index:1;
 }
 
 /*
