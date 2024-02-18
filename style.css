@@ -112,7 +112,7 @@ a{
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
-    background-color: #06080ed2;
+    background-color: blue;
 }
 .nav-menu{
     display: flex;
@@ -120,9 +120,6 @@ a{
     align-items: center;
     gap: 60px;
     margin-left: 100px;
-}
-.nav-branding{
-    font-size: 2rem;
 }
 .nav-socials img{
     width: 20px;
