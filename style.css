@@ -40,6 +40,28 @@ body{
     font-size: 80px;
     text-align: center;
 }
+.hero h2{
+    width: 100%;
+    font-size: 60px;
+}
+.hero button{
+    font-size: 20px;
+    padding: 8px;
+    padding-inline: 30px;
+    background-color: #e79c10;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+.hero img{
+    width: 60%;
+}
+.hero button:hover{
+    cursor: pointer;
+}
 .hero p{
     color: #e79c10;
     width: 100%;
@@ -172,6 +194,33 @@ a{
     width: 400px;
 }
 
+.content{
+    width: 45%;
+    margin-inline: auto;
+}
+.content p{
+    margin-inline: auto;
+    text-align: left;
+    font-size: 24px;
+}
+.content span{
+    font-size: 40px;
+}
+.content img{
+    width: 100%;
+}
+.hero .heading{
+    width: 45%;
+    margin-inline: auto;
+    text-align: left;
+}
+.hero .heading p{
+    color: white;
+    text-align: left;
+}
+.hero .heading h2{
+    font-size: 45px;
+}
 @media(max-width:768px){
     .hamburger{
         display: block;
